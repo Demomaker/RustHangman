@@ -9,6 +9,10 @@ impl Screen {
         Screen {}
     }
 
+    pub fn clone(&self) -> Self {
+        Screen {}
+    }
+
     pub fn show(&self, displayable: &dyn Displayable) {
         print!("{}", displayable.to_string());
         io::stdout().flush().unwrap();

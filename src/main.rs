@@ -2,9 +2,10 @@ mod screen;
 mod text;
 mod displayable;
 mod game;
+mod hangman;
+mod game_state;
 
 use screen::Screen;
-use text::Text;
 use game::Game;
 
 fn main() {
